@@ -37,7 +37,7 @@ AnimationPreviewerPluginのContentにある「EUW_AnimationPreviewer」の右ク
 
 - 自動検出は 「検出されたAnimationSequenceアセットを含むContent直下のフォルダ以下のSkeletamMesh」というルールで現状行っています。
 
-- プレビュー
+- 指定するプレビューモデルは、自動検出されたSkeletalMeshの各ボーンと同じ名前のボーンを持つSkeletalMeshである必要があります。これはCopy Pose From Meshノードが「ボーン名が同じ場合はTransformをコピーする」という仕様だからです。
 
 ## 動作環境
 - UE4.23
