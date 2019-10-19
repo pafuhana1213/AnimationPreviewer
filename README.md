@@ -49,5 +49,8 @@ MIT
 ## 作者
 [おかず@pafuhana1213](https://twitter.com/pafuhana1213)
 
+## ハッシュタグ
+[#UE4AnimPreviewer](https://twitter.com/search?q=%23UE4AnimPreviewer&src=typed_query&f=live)
+
 ## 履歴
 2019/10/19 v1.0 公開 v1.0
