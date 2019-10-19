@@ -1,7 +1,7 @@
 # EditorUtilityWidget「AnimationPreviewer」
 
 ![](https://github.com/pafuhana1213/Screenshot/blob/master/AnimationPreview1.png)  
-[![](https://img.youtube.com/vi/KZWN2UZYugA/0.jpg)](https://img.youtube.com/vi/KZWN2UZYugA)
+[![](https://img.youtube.com/vi/KZWN2UZYugA/0.jpg)](https://www.youtube.com/watch?v=KZWN2UZYugA&feature=youtu.be)
 
 ## はじめに
 マーケットプレイスで購入した大量のアニメーションをPersonaで確認してリターゲットして…という手順が大変だったので、プレビュー用のエディタ拡張 EditorUtilityWidget「AnimationPreview」を作ってみました。  
