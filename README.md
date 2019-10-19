@@ -1,8 +1,19 @@
 # AnimationPreviewer
-![](https://github.com/pafuhana1213/Screenshot/blob/master/AnimationPreview0.gif)  
+<img src="https://github.com/pafuhana1213/Screenshot/blob/master/AnimationPreview0.gif" width="640px">  
 
+![](https://github.com/pafuhana1213/Screenshot/blob/master/AnimationPreview1.png)  
 ## はじめに
-購入した大量のアニメーションを確認してリターゲットして…という手順が大変だったので、プレビュー用のエディタ拡張「AnimationPreview」を作ってみました。AnimSequence、SkeletalMeshの自動検出、プレビュー用アセットへのリアルタイムリターゲットなどの機能を組み込んでいます。
+マーケットプレイスで購入した大量のアニメーションをPersonaで確認してリターゲットして…という手順が大変だったので、プレビュー用のエディタ拡張 EditorUtilityWidget「AnimationPreview」を作ってみました。  
+Content以下にある全AnimationSequenceアセットを検出した結果をリストで表示し、その項目をクリックするとアニメーションをプレビューできます。また、指定のSkeletalMeshでプレビューすることが可能です
+
+## 使い方
+1. プロジェクトのPluginsフォルダにAnimationPreviewerフォルダを入れてください
+2. 
+![](https://github.com/pafuhana1213/Screenshot/blob/master/AnimationPreview2.png)  
+AnimationPreviewerPluginのContentにある「EUW_AnimationPreviewer」の右クリックメニュー、
+![](https://github.com/pafuhana1213/Screenshot/blob/master/AnimationPreview3.png)  
+または Window -> Editor Utility Widgets -> EUW_AnimationPreviewer から起動してください  
+3. 
 
 ## 動作環境
 - UE4.23
