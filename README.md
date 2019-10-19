@@ -11,9 +11,12 @@ Content以下にある全AnimationSequenceアセットを検出した結果を�
 2. 
 ![](https://github.com/pafuhana1213/Screenshot/blob/master/AnimationPreview2.png)  
 AnimationPreviewerPluginのContentにある「EUW_AnimationPreviewer」の右クリックメニュー、
-![](https://github.com/pafuhana1213/Screenshot/blob/master/AnimationPreview3.png)  
-または Window -> Editor Utility Widgets -> EUW_AnimationPreviewer から起動してください  
+![](https://github.com/pafuhana1213/Screenshot/blob/master/AnimationPreview4.png)  
+または Window -> Editor Utility Widgets -> EUW_AnimationPreviewer から起動してください。  
+起動するとプレビュー用のアセットがレベルに自動配置されます。  
 3. 
+![](https://github.com/pafuhana1213/Screenshot/blob/master/AnimationPreview5.gif)   
+抽出されたアニメーションの項目をクリックするとプレビューを開始します。
 
 ## 動作環境
 - UE4.23
