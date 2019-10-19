@@ -27,6 +27,9 @@ AnimationPreviewerPluginのContentにある「EUW_AnimationPreviewer」の右ク
 なお、指定するAnimationBPのAnimGraphは上図のようになっていることを想定しています。  
 /Content/AnimationPreviewSample/AnimBP_AnimationAssetViewerを参考、またはリターゲットしてください。
 
+5.  
+![](https://github.com/pafuhana1213/Screenshot/blob/master/AnimationPreview8.gif)     
+自動検出されたプレビューモデルを差し替えたい場合は、ウィンドウ右上にあるリストから変更してください。
 
 ## 動作環境
 - UE4.23
