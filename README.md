@@ -1,7 +1,8 @@
 # EditorUtilityWidget「AnimationPreviewer」
-<img src="https://github.com/pafuhana1213/Screenshot/blob/master/AnimationPreview0.gif" width="640px">  
 
 ![](https://github.com/pafuhana1213/Screenshot/blob/master/AnimationPreview1.png)  
+![](https://img.youtube.com/vi/KZWN2UZYugA/0.jpg)]
+
 ## はじめに
 マーケットプレイスで購入した大量のアニメーションをPersonaで確認してリターゲットして…という手順が大変だったので、プレビュー用のエディタ拡張 EditorUtilityWidget「AnimationPreview」を作ってみました。  
 Content以下にある全AnimationSequenceアセットを検出した結果をリストで表示し、その項目をクリックすることで自動検出されたSkeletalMeshを用いてアニメーションをプレビューできます。また、指定のSkeletalMeshでプレビューすることが可能です。
