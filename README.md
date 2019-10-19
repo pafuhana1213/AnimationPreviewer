@@ -4,7 +4,7 @@
 ![](https://github.com/pafuhana1213/Screenshot/blob/master/AnimationPreview1.png)  
 ## はじめに
 マーケットプレイスで購入した大量のアニメーションをPersonaで確認してリターゲットして…という手順が大変だったので、プレビュー用のエディタ拡張 EditorUtilityWidget「AnimationPreview」を作ってみました。  
-Content以下にある全AnimationSequenceアセットを検出した結果をリストで表示し、その項目をクリックするとアニメーションをプレビューできます。また、指定のSkeletalMeshでプレビューすることが可能です。
+Content以下にある全AnimationSequenceアセットを検出した結果をリストで表示し、その項目をクリックすることで自動検出されたSkeletalMeshを用いてアニメーションをプレビューできます。また、指定のSkeletalMeshでプレビューすることが可能です。
 
 ## 使い方
 1. プロジェクトのPluginsフォルダにAnimationPreviewerフォルダを入れてください
@@ -22,14 +22,22 @@ AnimationPreviewerPluginのContentにある「EUW_AnimationPreviewer」の右ク
 
 4.   
 ![](https://github.com/pafuhana1213/Screenshot/blob/master/AnimationPreview6.png)   
-プレビュー用のモデルを差し替えたい場合は赤枠部分を変更してください。
+特定のSkeletalMeshでプレビューしたい場合は赤枠部分を変更してください。
+
 ![](https://github.com/pafuhana1213/Screenshot/blob/master/AnimationPreview7.png)   
 なお、指定するAnimationBPのAnimGraphは上図のようになっていることを想定しています。  
 /Content/AnimationPreviewSample/AnimBP_AnimationAssetViewerを参考、またはリターゲットしてください。
 
 5.  
 ![](https://github.com/pafuhana1213/Screenshot/blob/master/AnimationPreview8.gif)     
-自動検出されたプレビューモデルを差し替えたい場合は、ウィンドウ右上にあるリストから変更してください。
+自動検出プレビューモデルを差し替えたい場合は、ウィンドウ右上にあるリストから変更してください。
+
+## 注意点
+- 本プラグインはマーケットプレイスで購入したアニメーションのプレビューを想定して製作されています。そのため、それ以外の用途で使用した場合は不具合が出る可能性があります。その際はお手数ですがその用途に適した形にカスタマイズしてください。
+
+- 自動検出は 「検出されたAnimationSequenceアセットを含むContent直下のフォルダ以下のSkeletamMesh」というルールで現状行っています。
+
+- プレビュー
 
 ## 動作環境
 - UE4.23
