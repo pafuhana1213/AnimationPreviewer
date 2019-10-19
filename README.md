@@ -15,7 +15,7 @@ AnimationPreviewerPluginのContentにある「EUW_AnimationPreviewer」の右ク
 ![](https://github.com/pafuhana1213/Screenshot/blob/master/AnimationPreview4.png)  
 または Window -> Editor Utility Widgets -> EUW_AnimationPreviewer から起動してください。  
 (起動するとプレビュー用のSkeletalMeshActorがレベルに自動配置されます)  
-  
+
 3.   
 ![](https://github.com/pafuhana1213/Screenshot/blob/master/AnimationPreview5.gif)   
 抽出されたアニメーションの項目をクリックするとプレビューを開始します。  
@@ -24,7 +24,8 @@ AnimationPreviewerPluginのContentにある「EUW_AnimationPreviewer」の右ク
 ![](https://github.com/pafuhana1213/Screenshot/blob/master/AnimationPreview6.png)   
 プレビュー用のモデルを差し替えたい場合は赤枠部分を変更してください。
 ![](https://github.com/pafuhana1213/Screenshot/blob/master/AnimationPreview7.png)   
-なお、指定するAnimationBPのAnimGraphは上図のようになっていることを想定しています。/Content/AnimationPreviewSample/AnimBP_AnimationAssetViewerを参考、またはリターゲットしてください。
+なお、指定するAnimationBPのAnimGraphは上図のようになっていることを想定しています。  
+/Content/AnimationPreviewSample/AnimBP_AnimationAssetViewerを参考、またはリターゲットしてください。
 
 
 ## 動作環境
