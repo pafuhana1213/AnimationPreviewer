@@ -1,0 +1,8 @@
+{
+	"BuildId": "8386587",
+	"Modules": 
+	{
+		"AnimationPreviewer": "UE4Editor-AnimationPreviewer.dll",
+		"AnimationPreviewerEd": "UE4Editor-AnimationPreviewerEd.dll"
+	}
+}
