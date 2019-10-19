@@ -1,4 +1,4 @@
-# AnimationPreviewer
+# EditorUtilityWidget「AnimationPreviewer」
 <img src="https://github.com/pafuhana1213/Screenshot/blob/master/AnimationPreview0.gif" width="640px">  
 
 ![](https://github.com/pafuhana1213/Screenshot/blob/master/AnimationPreview1.png)  
