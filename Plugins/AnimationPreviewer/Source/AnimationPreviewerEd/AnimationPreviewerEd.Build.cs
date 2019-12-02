@@ -43,6 +43,8 @@ public class AnimationPreviewerEd : ModuleRules
 				// ... add private dependencies that you statically link with here ...	
                 "AnimGraph",
                 "BlueprintGraph",
+                "UnrealEd",
+                "AssetRegistry"
             }
 			);
 		
